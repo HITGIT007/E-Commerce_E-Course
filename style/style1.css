@@ -1,0 +1,571 @@
+/*
+Theme Name: PHP URL Shortener
+Author: Naeem Hussain
+Description: In this theme user can add Logn URL and Get Short URL.
+Version: 1.0
+File: Style CSS
+*/
+
+
+/***********************************************/
+/*************** Selector Reset ****************/
+/***********************************************/
+
+html, body, blockquote, pre,address, code, img,
+small, strong, dl, dt, dd, ol, ul, li,h1, h2, h3, h4, h5, h6,p,
+fieldset, form, label, div, span, object,a, tr,td,th,
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1.5;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	
+}
+ol, ul {
+	list-style: none;
+}
+
+p{
+	margin: 10px;
+}
+input{
+	width: 195px;
+	height: 30px;
+}
+textarea {
+	
+	width: 195px;
+	
+}
+
+/***********************************************/
+/***************** Tag Selector ***********************/
+/***********************************************/
+
+
+
+
+@media (min-width: 700px){
+
+#manu{
+		
+		height:  40px;
+	}
+
+
+#manu ul {
+    margin: 5px 10px 0 20px;
+    padding: 0;
+	  margin-bottom: 20px;
+}
+
+#manu li {
+    float: left;
+	  margin: 10px;
+	 
+}
+
+#manu li a {
+    display: block;
+    color: #1f447f;
+    text-decoration: none;
+    padding: 5px 16px;
+    
+}
+
+
+#manu a:hover{
+	
+
+	background-color: #1f447f;
+	color: #fff;
+}	
+
+	.live a{
+		
+		background-color: #1f447f;
+	color: #fff;
+		
+	}	
+	
+	
+	
+	#nav{
+		
+		clear: both;
+	}	
+	
+	#main{
+
+	margin: auto;
+	width: 700px;
+
+	
+	
+	
+}
+
+	#main2{
+	margin: auto;
+	width: 700px;
+	height: auto;
+	clear: both;	
+	
+	
+}
+	
+	
+	#main3{
+
+	margin: auto;
+	width: 850px;
+	border: 4px solid  #1f447f;
+	height: auto;
+	
+}
+	
+	#header{
+		
+
+	background-color: #1f447f;
+
+	font-size: 30px;
+	padding:20px;
+	color: white;
+	clear: both;
+	
+		
+	}
+	#header img{
+		
+	margin: 0 0 0 10px;
+		
+	}
+	
+
+	
+
+	
+	.item{
+		float: left;
+		width: 200px;
+		margin: 10px 0 40px 20px;
+		height: 210px;
+		padding: 2px;
+		padding-bottom: 5px;
+	 
+		
+	}
+	.item img{
+		width: 160px;
+		margin-bottom: 10px;
+		height: 175px;
+		padding: 0px 0 0 20px;
+	}
+	
+	
+	.item1{
+		float: left;
+		width: 300px;
+		margin: 20px;
+		height: 300px;
+	
+	  
+	
+
+	
+		
+	}
+	.item1 img{
+		width: 200px;
+		height: 300px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.place-order{
+			
+	
+		background-color: gold;
+		padding: 20px;
+		margine-top: 20px;
+	
+	}
+	
+
+	.place-order a{
+	
+		color: #fff;
+		text-decoration:none;	
+		
+	}
+	
+	
+	.more{
+		background-color:  #1f447f;
+		border: 1px solid #111;
+		color: #fff;
+		font-size: 12px;
+		margin: 10px 6px 2px 20px;
+		padding: 2px;
+	
+			
+	}
+	
+	.more a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	.order a{
+		
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.order{
+		
+		background-color: gold;
+		border: 1px solid;
+		font-size: 12px;
+		margin: 1px;
+		padding: 2px;
+		margin-bottom: 2px;
+	}
+	
+	.price{
+		
+		background-color: gold;
+		border: 1px solid;
+		font-size: 15px;
+		margin: 1px;
+		padding: 2px;
+		
+	
+		
+	}
+	
+	
+	
+	#footer{
+		
+  clear: both;
+	margin: auto;
+	font-size: 15px;
+	width:670px;	
+	padding:20px;
+	color: white;
+	margin-bottom: -20px;	
+	background-color: #333;
+		
+	}
+	#footer img{
+		
+		width: 50px;
+		height: 50px;
+		margin: 3px;
+		clear: both;
+		
+	}	
+	
+	#footer3{
+		
+  clear: both;
+	margin: auto;
+	font-size: 15px;
+	width:810px;	
+	padding:20px;
+	color: white;
+	margin-bottom: -20px;	
+	background-color: #333;
+		
+	}
+	#footer3 img{
+		
+		width: 50px;
+		height: 50px;
+		margin: 3px;
+		clear: both;
+		
+	}
+	
+	.button {
+		
+		background-color: #1f447f;
+		padding: 10px;
+		width: 200px;
+		border: 1px solid #1f447f;
+		color: #fff;
+		text-decoration: none;
+		
+		
+	}
+	
+	
+	.button2 {
+		
+		background-color: gold;
+		padding: 10px;
+		width: 300px;
+		border: 1px solid gold;
+		color: #fff;
+		text-decoration: none;
+		
+		
+	}
+	
+	button2 a{
+		background-color: #1f447f;
+		padding: 10px;
+		width: 200px;
+		border: 1px solid #1f447f;
+		color: #fff;
+		text-decoration: none;
+		
+	}
+		
+
+	.button a{
+		
+		background-color: #1f447f;
+		padding: 10px;
+		width: 200px;
+		border: 1px solid #1f447f;
+		color: #fff;
+		text-decoration: none;
+		
+		
+	}
+
+
+} /******** 700 *******/
+
+
+
+
+@media (max-width: 699px){
+	
+		#main2{
+	margin: auto;
+	width: 400px;
+	height: auto;
+	clear: both;	
+	
+	
+}
+	
+	.button {
+		
+		background-color: #1f447f;
+		padding: 10px;
+		width: 200px;
+		border: 1px solid #1f447f;
+		color: #fff;
+		text-decoration: none;
+		
+		
+	}
+	
+	.item{
+	
+		width: 200px;
+		margin: 10px 0 40px 20px;
+		height: 210px;
+		padding: 2px;
+		padding-bottom: 5px;
+	 
+		
+	}
+	.item img{
+		width: 160px;
+		margin-bottom: 10px;
+		height: 175px;
+		padding: 0px 0 0 20px;
+	}
+	
+	
+	.item1{
+	
+		width: 300px;
+		margin: 20px;
+		height: 300px;
+	
+	  
+	
+
+	
+		
+	}
+	.item1 img{
+		width: 200px;
+		height: 300px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.place-order{
+			
+	
+		background-color: gold;
+		padding: 20px;
+		margine-top: 20px;
+	
+	}
+	
+
+	.place-order a{
+	
+		color: #fff;
+		text-decoration:none;	
+		
+	}
+	
+	
+	.more{
+		background-color:  #1f447f;
+		border: 1px solid #111;
+		color: #fff;
+		font-size: 12px;
+		margin: 10px 6px 2px 20px;
+		padding: 2px;
+	
+			
+	}
+	
+	.more a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	.order a{
+		
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.order{
+		
+		background-color: gold;
+		border: 1px solid;
+		font-size: 12px;
+		margin: 1px;
+		padding: 2px;
+		margin-bottom: 2px;
+	}
+	
+	.price{
+		
+		background-color: gold;
+		border: 1px solid;
+		font-size: 15px;
+		margin: 1px;
+		padding: 2px;
+		
+	
+		
+	}
+	
+
+	#main{
+
+	margin: auto;
+	width: 360px;
+	border: 4px solid  #1f447f;
+	
+}
+	#header{
+		
+	clear: both;
+	background-color: #1f447f;
+
+	font-size: 30px;
+	padding:20px;
+	color: white;
+	
+		
+	}
+	#header img{
+		
+	margin: 0 0 0 10px;
+		
+	}
+	
+	#footer{
+	margin: auto;	
+	font-size: 15px;
+	width:330px;	
+	padding:20px;
+	color: white;
+	margin-top: -10px; 	
+	background-color: #333;
+		
+	}
+	#footer img{
+		
+		width: 50px;
+		height: 50px;
+		margin: 3px;
+		
+	}
+
+
+
+
+
+} /******** 600 *******/
+
+
+@media (max-width: 359px){
+
+#main{
+
+	margin: auto;
+	width: 200px;
+	border: 4px solid  #1f447f;
+	
+}
+	#header{
+		
+	clear: both;
+	background-color: #1f447f;
+
+	font-size: 30px;
+	padding:20px;
+	color: white;
+	
+		
+	}
+	#header img{
+		
+	margin: 0 0 0 10px;
+		
+	}
+	
+	#footer{
+	margin: auto;	
+	font-size: 15px;
+	width:170px;	
+	padding:20px;
+	color: white;
+	margin-top: -10px; 	
+	background-color: #333;
+		
+	}
+	#footer img{
+		
+		width: 40px;
+		height: 40px;
+		margin: 3px;
+		
+	}
+
+
+
+} /******** Responsive*******/
